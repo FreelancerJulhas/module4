@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+hr {
+    margin-bottom: 5px;
+    height: 1px;
+}
+
+form {
+    background-color: lightgrey;
+    width: 500px;
+    box-shadow: -2px 0px 2px black;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+legend{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+table{
+    width: 100%;
+    padding: 50px;
+
+}
+input,select{
+    width: 80%;
+    max-width: 100px;
+}
+input[type="submit"]{
+    padding: 5px;
+}
+select{
+    padding: 10px;
+    display: inline-block;
+}
+.submit{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.msgBox{
+    max-width: 250px;
+}
+
+/* Sharing practice tasks start */
+
+.practice{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+/* Sharing practice tasks end */
+
